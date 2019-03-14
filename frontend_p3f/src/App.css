@@ -1,0 +1,37 @@
+
+
+.navfi{
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(49, 5, 5);
+  border-top: 1px solid rgba(red, green, blue, alpha);
+  border-bottom: 1px solid rgba(red, green, blue, alpha);
+  position: sticky;
+  top: 0;
+  
+}
+    
+.navfi ul{
+  display: flex;
+  margin:0;
+  padding:0 100px;
+  float: right;
+}
+
+.navfi ul li a{
+  display: block;
+  color: #ffffff;
+  padding: 0 20px;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+  font-size: 17px;
+
+}
+
+.navfi ul li a:hover{
+  background-color: darkred;
+}
